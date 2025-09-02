@@ -10,7 +10,7 @@ connectDB();
 const app = express();
 
 // Middleware
-aapp.use(cors({
+app.use(cors({
   origin: [
     'http://localhost:5173',
     'https://frontend-fokusin.vercel.app'
